@@ -1,0 +1,66 @@
+.ui-tabs.ui-tabs-vertical {
+    padding: 0;
+    width: 42em;
+}
+
+/*background - nav*/
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+	position: fixed;
+    left: 0px;
+    width: 175px;
+    border-radius: 8px 8px 8px 8px;
+}
+/*button - list*/
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li { 
+	clear: left;
+    width: 175px; /*button border's width*/
+	background: #6086A8; /*#18B2FF*/
+    margin: 0.4em 0 0.1em -2em;
+    border: 1px solid #000; /*button border/outline*/
+    border-width: 1px 1px 1px 1px;
+    border-radius: 4px 4px 4px 4px;
+    overflow: hidden; /*hides bullets of list*/
+    position: relative;
+    z-index: 2;
+}
+/*button texts - links*/
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+	color: white;
+    display: block;
+    width: 100%;
+    padding: 0.6em 1em;
+}
+/*on button hover*/
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover {
+    background: #1ED3DF; /*button change color on hover*/
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	background: #22D3DF; 
+	margin: 0.4em 0 0.1em -2em;
+    border: 1px solid white;
+	border-width: 1px 1px 1px 1px;
+    border-radius: 4px 4px 4px 4px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li:last-child {
+    margin-bottom: 10px; /*space after last menu item*/
+}
+/*content area*/
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+    float: left;
+    /* width: 28em; how far writing stretches until next line*/
+    border-radius: 0;
+    position: relative;
+    left: 1em; /*how far from menu*/
+}
+
+body{
+	
+	margin-top: 4%;
+	margin-left: 200px;
+	background-color: #333333;
+}
+
+p{
+	margin-top: 5%;
+	color: white; /*#67625C*/
+}
